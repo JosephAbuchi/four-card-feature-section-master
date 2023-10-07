@@ -1,0 +1,196 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  overflow: hidden;
+  margin: 0;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  padding: 3rem 5rem 3rem 5rem;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header span {
+  font-size: 35px;
+  font-weight: lighter;
+  color: hsl(234, 12%, 34%);
+}
+
+header h2 {
+  font-size: 35px;
+  margin: 0;
+}
+
+header p {
+  color: hsl(229, 6%, 66%);
+  width: 35rem;
+  text-align: center;
+  margin-top: 1rem;
+  font-size: 15px;
+}
+
+footer {
+  margin-top: 2rem;
+}
+
+footer h2 {
+  font-size: 17px;
+  margin: 0;
+}
+
+footer p {
+  color: hsl(229, 6%, 66%);
+  font-size: 12px;
+  margin-top: 10px;
+}
+
+footer img {
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
+  position: relative;
+  left: 12.5rem;
+  top: 3rem;
+}
+
+footer .supervisor {
+  box-shadow: 17px 17px 61px -6px rgba(0, 0, 0, 0.24);
+  border-top: 4px solid hsl(180, 62%, 55%);
+  border-radius: 5px;
+  width: 19rem;
+  height: 30vh;
+  padding: 2rem;
+  position: relative;
+  left: 9rem;
+  top: 9.5rem;
+}
+
+footer .supervisor img {
+  left: 12rem;
+}
+
+footer .team-builder {
+  box-shadow: 17px 17px 61px -6px rgba(0, 0, 0, 0.24);
+  border-top: 4px solid hsl(0, 78%, 62%);
+  border-radius: 5px;
+  width: 19rem;
+  height: 30vh;
+  padding: 2rem;
+  position: relative;
+  left: 30rem;
+  bottom: 16rem;
+}
+
+footer .team-builder img {
+  left: 12rem;
+}
+
+footer .karma {
+  box-shadow: 17px 17px 61px -6px rgba(0, 0, 0, 0.24);
+  border-top: 4px solid hsl(34, 97%, 64%);
+  border-radius: 5px;
+  width: 19rem;
+  height: 30vh;
+  padding: 2rem;
+  position: relative;
+  left: 30rem;
+  bottom: 14rem;
+}
+
+footer .karma img {
+  left: 12rem;
+}
+
+footer .calculator {
+  box-shadow: 17px 17px 61px -6px rgba(0, 0, 0, 0.24);
+  border-top: 4px solid hsl(212, 86%, 64%);
+  border-radius: 5px;
+  width: 19rem;
+  height: 30vh;
+  padding: 2rem;
+  position: relative;
+  left: 51rem;
+  bottom: 36.5rem;
+}
+
+footer .calculator img {
+  left: 12rem;
+}
+
+@media only screen and (max-width:375px) {
+  body {
+    overflow: unset;
+  }
+
+  .box {
+    display: flex;
+    padding: 3rem 1rem 3rem 1rem;
+  }
+
+  header span {
+    font-size: 25px;
+  }
+
+  header h2 {
+    font-size: 25px;
+  }
+  footer img {
+    top: 2rem;
+  }
+
+  header p {
+    width: 17rem;
+    font-size: 13px;
+    text-align: center;
+  }
+
+  footer {
+    display: flex;
+    flex-direction: column;
+  }
+
+  footer .supervisor {
+    position: initial;
+    margin-left: 1rem;
+    margin-bottom: 2rem;
+  }
+
+  footer .team-builder {
+    position: initial;
+    margin-left: 1rem;
+    margin-bottom: 2rem;
+  }
+
+  footer .karma {
+    position: initial;
+    margin-left: 1rem;
+    margin-bottom: 2rem;
+  }
+
+  footer .calculator {
+    position: initial;
+    margin-left: 1rem;
+    margin-bottom: 2rem;
+  }
+}
